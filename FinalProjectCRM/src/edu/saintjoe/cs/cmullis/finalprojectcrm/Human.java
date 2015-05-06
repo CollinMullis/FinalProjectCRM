@@ -26,7 +26,7 @@ public class Human {
 	}
 	// Constructor
 	public Human(int thisType) {
-		type = thisType
+		type = thisType;
 	}
 	
 	// Accessor
