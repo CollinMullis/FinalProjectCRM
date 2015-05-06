@@ -6,10 +6,6 @@ package edu.saintjoe.cs.cmullis.finalprojectcrm;
  */
 public class Mammal {
 
-	public class Human {
-
-	}
-
 	// Data members
 	private final String type;
 	private int age;
@@ -27,22 +23,6 @@ public class Mammal {
 		type = thisType;
 	}
 	
-	// Accessor
-	public void getType() {
-		return type;
-	}
-	
-	// Accessor
-	public int getAge() {
-		return age;
-	}
-	
-	// Mutator
-	public int setAge(int newAge) {
-		int oldAge = age;
-		age = newAge;
-		return oldAge;
-	}
 	
 	public String toString() {
 		
