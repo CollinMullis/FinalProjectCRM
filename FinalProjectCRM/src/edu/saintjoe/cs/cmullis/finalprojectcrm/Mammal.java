@@ -1,6 +1,5 @@
 package edu.saintjoe.cs.cmullis.finalprojectcrm;
 
-
 /* Coded by Collin Mullis
  * CMP112 
  * Final Exam
@@ -23,10 +22,6 @@ public class Mammal {
 	public Mammal(String thisName) {
 		name = thisName;
 	}
-	// Constructor
-	public Mammal(int thisType) {
-		type = thisType;
-	}
 	
 	// Accessor
 	public String getName() {
@@ -46,6 +41,7 @@ public class Mammal {
 	}
 	
 	public String toString() {
+		
 		return "Name: " + name + " Type: " + type;
 	}
 }
