@@ -44,4 +44,8 @@ public class Mammal {
 		type = newType;
 		return oldType;
 	}
+	
+	public String toString() {
+		return "Name: " + name + " Type: " + type;
+	}
 }
