@@ -23,6 +23,20 @@ public class Mammal {
 		type = thisType;
 	}
 	
+	// Accessor
+	public String getType() {
+		return type;
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public int setAge(int newAge) {
+		int oldAge = age;
+		age = newAge;
+		return oldAge;
+	}
 	
 	public String toString() {
 		
