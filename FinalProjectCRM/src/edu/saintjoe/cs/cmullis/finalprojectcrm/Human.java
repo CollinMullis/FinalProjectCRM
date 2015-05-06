@@ -14,15 +14,35 @@ public class Human {
 	}
 /*----------------------------------------------------------------------------*/
 
+	// Constructor
 	public Human(String thisName, int thisType) {
 		name = thisName;
 		type = thisType;
 	}
 	
+	// Constructor
 	public Human(String thisName) {
 		name = thisName;
 	}
-	
+	// Constructor
 	public Human(int thisType) {
 		type = thisType
 	}
+	
+	// Accessor
+	public String getName() {
+		return name;
+	}
+	
+	// Accessor
+	public int getType() {
+		return type;
+	}
+	
+	// Mutator
+	public int setType(int newType) {
+		int oldType = type;
+		type = newType;
+		return oldType;
+	}
+}
