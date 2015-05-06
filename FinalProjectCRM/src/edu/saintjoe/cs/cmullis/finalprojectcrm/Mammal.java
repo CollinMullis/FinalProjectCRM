@@ -28,7 +28,7 @@ public class Mammal {
 	}
 	
 	// Accessor
-	public String getType() {
+	public void getType() {
 		return type;
 	}
 	
@@ -38,7 +38,7 @@ public class Mammal {
 	}
 	
 	// Mutator
-	public int setType(int newAge) {
+	public int setAge(int newAge) {
 		int oldAge = age;
 		age = newAge;
 		return oldAge;

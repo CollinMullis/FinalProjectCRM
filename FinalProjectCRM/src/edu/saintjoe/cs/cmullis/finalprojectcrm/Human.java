@@ -14,8 +14,23 @@ public class Human extends Mammal {
 		
 	} 
 
-	public Human(String thisName) {
+	public Human(String thisType, int thisAge, String thisName) {
+		super(thisType, thisAge);
 		name = thisName;
+		
 	}
+	
+	public void getType() {
+		
+	}
+	public int setAge(int newAge) {
+		int anAge = super.setAge(newAge);
+		return anAge;
+	}
+	
+	public String toString() {
+		return super.toString() + " Name: " + name;
+	}
+	
 	
 }
