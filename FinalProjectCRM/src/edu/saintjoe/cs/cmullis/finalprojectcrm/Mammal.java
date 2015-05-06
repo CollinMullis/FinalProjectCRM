@@ -6,42 +6,46 @@ package edu.saintjoe.cs.cmullis.finalprojectcrm;
  */
 public class Mammal {
 
+	public class Human {
+
+	}
+
 	// Data members
-	private final String name;
-	private int type; // 1 = Sea 2 = Land 
+	private final String type;
+	private int age;
 
 /*----------------------------------------------------------------------------*/
 
 	// Constructor
-	public Mammal(String thisName, int thisType) {
-		name = thisName;
+	public Mammal(String thisType, int thisAge) {
 		type = thisType;
+		age = thisAge;
 	}
 	
 	// Constructor
-	public Mammal(String thisName) {
-		name = thisName;
+	public Mammal(String thisType) {
+		type = thisType;
 	}
 	
 	// Accessor
-	public String getName() {
-		return name;
-	}
-	
-	// Accessor
-	public int getType() {
+	public String getType() {
 		return type;
 	}
 	
+	// Accessor
+	public int getAge() {
+		return age;
+	}
+	
 	// Mutator
-	public int setType(int newType) {
-		int oldType = type;
-		type = newType;
-		return oldType;
+	public int setType(int newAge) {
+		int oldAge = age;
+		age = newAge;
+		return oldAge;
 	}
 	
 	public String toString() {
 		
-		return "Name: " + name + " Type: " + type;
+		return "Type: " + type + " Age: " + age;
 	}
 }
